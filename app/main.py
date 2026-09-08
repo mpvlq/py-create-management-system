@@ -56,7 +56,7 @@ def read_groups_information() -> list:
 
         for group in groups:
             if group.specialty not in groups_specialties:
-                groups_specialties.append(group.specialty)
+                groups_specialties.append(group.specialty.name)
 
     return groups_specialties
 
