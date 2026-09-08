@@ -55,7 +55,7 @@ def read_groups_information() -> list:
         groups = pickle.load(pickle_file)
 
         for group in groups:
-            if group.specialty not in groups_specialties:
+            if group.specialty.name not in groups_specialties:
                 groups_specialties.append(group.specialty.name)
 
     return groups_specialties
