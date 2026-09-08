@@ -16,7 +16,7 @@ class Student:
     first_name: str
     last_name: str
     birth_date: date
-    average_math: float
+    average_mark: float
     has_scholarship: bool
     phone_number: str
     address: str
